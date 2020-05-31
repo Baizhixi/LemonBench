@@ -1126,13 +1126,14 @@ Function_Speedtest_Full() {
     # 默认测试
     Run_Speedtest "default" "Speedtest Default"
     # 国内测试 - 联通组
+    Run_Speedtest "5145" "China, Beijing CU"
     Run_Speedtest "9484" "China, Jilin CU"
-    Run_Speedtest "17184" "China, Shandong CU"
+    Run_Speedtest "5039" "China, Jinan CU"
     Run_Speedtest "13704" "China, Nanjing CU"
     Run_Speedtest "24447" "China, Shanghai CU"
     Run_Speedtest "4690" "China, Lanzhou CU"
     # 国内测试 - 电信组
-    Run_Speedtest "27377" "China, Beijing CT"
+    Run_Speedtest "24012" "China, Huhhot CT"
     Run_Speedtest "7509" "China, Hangzhou CT"
     Run_Speedtest "26352" "China, Nanjing CT"
     Run_Speedtest "27594" "China, Guangzhou CT"
@@ -1142,6 +1143,11 @@ Function_Speedtest_Full() {
     Run_Speedtest "4647" "China, Hangzhou CM"
     Run_Speedtest "15863" "China, Nanning CM"
     Run_Speedtest "16145" "China, Lanzhou CM"
+    Run_Speedtest "26331" "China, Zhengzhou CM"
+    # 国内测试 - 教育网组
+    Run_Speedtest "30852" "China, Suzhou DKU Cernet"
+    # 国内测试 - 广电组
+    Run_speedtest "5530" "China, Chongqing CCN"
     # 海外测试
     Run_Speedtest "16176" "Hong Kong, HGC"
     Run_Speedtest "13538" "Hong Kong, CSL"
