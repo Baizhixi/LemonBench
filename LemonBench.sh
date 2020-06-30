@@ -1147,7 +1147,7 @@ Function_Speedtest_Full() {
     # 国内测试 - 教育网组
     Run_Speedtest "30852" "China, Suzhou DKU Cernet"
     # 国内测试 - 广电组
-    Run_speedtest "5530" "China, Chongqing CCN"
+    Run_Speedtest "5530" "China, Chongqing CCN"
     # 海外测试
     Run_Speedtest "16176" "Hong Kong, HGC"
     Run_Speedtest "13538" "Hong Kong, CSL"
